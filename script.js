@@ -223,7 +223,7 @@ const meals = {
 				"cebula",
 			],
 			recipe:
-				"Ugotuj makaron. Wymieszaj z tuńczykiem, majonezem, pokrojonymi ogórkami i cebulą.",,
+				"Ugotuj makaron. Wymieszaj z tuńczykiem, majonezem, pokrojonymi ogórkami i cebulą.",
 		},
 		{
 			name: "Jajka w koszulkach",
