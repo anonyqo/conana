@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co na...</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="meal-panel">
+                    <h2 id="meal-name" class="text-center"></h2>
+                    <div id="meal-image" class="text-center mb-3"></div>
+                    <h3>Składniki:</h3>
+                    <ul id="ingredients-list"></ul>
+                    <h3>Przepis:</h3>
+                    <p id="recipe-text"></p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="main-content text-center" role="main">
+                    <h1>Co na...</h1>
+                    <div id="meal-type-selector" class="mb-3" role="group" aria-label="Wybór posiłku">
+                        <button id="breakfast" class="btn btn-custom">Śniadanie</button>
+                        <button id="lunch" class="btn btn-custom">Obiad</button>
+                        <button id="dinner" class="btn btn-custom">Kolacja</button>
+                    </div>
+                    <div id="price-category" class="mb-3">
+                        <button id="cheap" class="btn btn-custom">Tanie</button>
+                        <button id="expensive" class="btn btn-custom">Drogie</button>
+                    </div>
+                    <div id="price-range-info" class="mb-3"></div>
+                    <div id="meal" class="mb-3" tabindex="0" role="button" aria-label="Kliknij, aby wylosować">
+                        Kliknij, aby wylosować!
+                    </div>
+                    <div id="recent-meals-container" class="mb-3">
+                        <div id="recent-meals-left"></div>
+                        <div id="recent-meals-center"></div>
+                        <div id="recent-meals-right"></div>
+                    </div>
+                    <button id="search-google" class="btn btn-custom">Szukaj w Google</button>
+                    <div id="popular-dishes" class="mt-4">
+                        <h2>Popularne</h2>
+                        <div class="row">
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <div class="popular-dish">
+                                    <div class="popular-dish-image"></div>
+                                    <div class="popular-dish-name"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
