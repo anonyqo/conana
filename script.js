@@ -14,7 +14,7 @@ const meals = {
 			ingredients: ["chleb pełnoziarnisty", "awokado", "sól", "pieprz"],
 			recipe:
 				"Rozgnieć awokado, przypraw solą i pieprzem. Rozsmaruj na kromkach chleba.",
-			image: "images/kanapka-avocado.jpg",
+			//image: "images/kanapka-avocado.jpg",
 		},
 		{
 			name: "Omlet z szynką i serem",
@@ -22,7 +22,7 @@ const meals = {
 			ingredients: ["jajka", "szynka", "ser żółty", "masło"],
 			recipe:
 				"Ubite jajka wylej na patelnię z roztopionym masłem. Dodaj pokrojoną szynkę i ser, smaż na małym ogniu.",
-			image: "images/omlet-z-serem.jpg",
+			//image: "images/omlet-z-serem.jpg",
 		},
 		{
 			name: "Pancakes",
