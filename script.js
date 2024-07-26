@@ -98,7 +98,7 @@ const meals = {
 			],
 			recipe:
 				"Usmaż mięso z cebulą i czosnkiem, dodaj pomidory. Gotuj sos, podawaj z makaronem.",
-			image: "images/spaghetti.jpg",
+			//image: "images/spaghetti.jpg",
 		},
 		{
 			name: "Zupa pomidorowa",
@@ -106,7 +106,7 @@ const meals = {
 			ingredients: ["pomidory", "cebula", "czosnek", "bulion", "śmietana"],
 			recipe:
 				"Podsmaż cebulę i czosnek, dodaj pomidory i bulion. Gotuj do miękkości, zmiksuj, dodaj śmietanę.",
-			image: "images/zupa-pomidorowa.jpg",
+			//image: "images/zupa-pomidorowa.jpg",
 		},
 		{
 			name: "Kotlety mielone",
@@ -120,7 +120,7 @@ const meals = {
 			],
 			recipe:
 				"Wymieszaj mięso z jajkiem, bułką tartą i cebulą. Formuj kotlety, smaż na patelni.",
-			image: "images/kotlety-mielone.jpg",
+			//image: "images/kotlety-mielone.jpg",
 		},
 		{
 			name: "Kurczak pieczony z warzywami",
@@ -210,7 +210,7 @@ const meals = {
 			],
 			recipe:
 				"Rozłóż ciasto w formie, dodaj warzywa, ser, jajko i śmietanę. Piecz przez 25 minut.",
-			image: "images/tarta-z-warzywami.jpg",
+			//image: "images/tarta-z-warzywami.jpg",
 		},
 		{
 			name: "Pasta z tuńczykiem",
