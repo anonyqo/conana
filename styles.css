@@ -345,7 +345,7 @@ h3 {
 }
 
 .popular-dish-image img {
-	width: 100%;
+	width: 130px;
 	height: 100px;
 	object-fit: cover;
 	border-radius: 5px;
